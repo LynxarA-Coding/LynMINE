@@ -1,0 +1,13 @@
+filename = 'clutter-1.19.2-0.2.1.jar'
+name = 'Clutter'
+side = 'both'
+
+[download]
+hash = 'cd0dc5ffab88a1daac6eca75e032a84278f37760024d3d06157558a086d74d9513c216d45582ddbd70434748b3a9d84a3bcc53f5154a0317b181fa575019d8d4'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KZAmykow/versions/LsSXw1tA/clutter-1.19.2-0.2.1.jar'
+
+[update.modrinth]
+mod-id = 'KZAmykow'
+version = 'LsSXw1tA'

@@ -1,0 +1,13 @@
+filename = 'choicetheorems-overhauled-village-friends-and-foes-add-on-1.1.jar'
+name = 'CTOV - Friends and Foes Compat'
+side = 'server'
+
+[download]
+hash = '9ee635bc773ab351a3cf43ee9a01b39bcdf31f6efe5c1583ec9563a620567593a741cecfe6025641d9cacf8c65b0c5ef8dbf784330d0d7e1fb2aed061216e5aa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/kawJN2LZ/versions/AzkfLDLD/choicetheorems-overhauled-village-friends-and-foes-add-on-1.1.jar'
+
+[update.modrinth]
+mod-id = 'kawJN2LZ'
+version = 'AzkfLDLD'

@@ -1,0 +1,13 @@
+filename = 'transmog-fabric-1.2.2+1.19.2.jar'
+name = 'Transmog'
+side = 'both'
+
+[download]
+hash = '2f939e5a437064d5bce5bc689feec8542887d18ce94d79ea30de8fe541a8c9f0c05740d93af72b7aee6c923969189a3a3842f98a160707c87d7a499d612b62da'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/Th33t82F/versions/aKA5yNds/transmog-fabric-1.2.2%2B1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'Th33t82F'
+version = 'aKA5yNds'

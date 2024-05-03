@@ -1,0 +1,13 @@
+filename = 'chefs-delight-1.0.3-fabric-1.19.2.jar'
+name = "Chef's Delight"
+side = 'both'
+
+[download]
+hash = '2f09163e26b7a5a5aab0b14a10267fcf4b75f092b58264bb27d1d5e70b015f3524f4ce30224836e0e656b2cc5c5ed779ba3b83f6d6b74f4994191bb7781842f0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/pvcsfne4/versions/Uvrtvpo7/chefs-delight-1.0.3-fabric-1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'pvcsfne4'
+version = 'Uvrtvpo7'

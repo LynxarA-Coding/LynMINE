@@ -1,0 +1,13 @@
+filename = 'tr-patchouli-2.1.1.jar'
+name = 'Tech Reborn Patchouli'
+side = 'both'
+
+[download]
+hash = 'adb3fe56434f8b3b1dab2518f04dbae4bda9c0bb'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4036791
+project-id = 622390

@@ -1,0 +1,13 @@
+filename = 'mythic-mounts-1.19.2-7.2.jar'
+name = 'Mythic Mounts'
+side = 'both'
+
+[download]
+hash = '0357f3e273179e480b0b2518c2cb14413fbdcb1eb7928ae2b81158a8d56897dae68becfcc7c34951683958841c256bedb00e67f9a1ca259a9225a48b0751723a'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/xP7vOoRA/versions/4T9VDrA0/mythic-mounts-1.19.2-7.2.jar'
+
+[update.modrinth]
+mod-id = 'xP7vOoRA'
+version = '4T9VDrA0'

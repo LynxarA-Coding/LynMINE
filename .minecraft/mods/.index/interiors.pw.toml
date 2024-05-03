@@ -1,0 +1,13 @@
+filename = 'interiors-0.5.3+fabric-mc1.19.2.jar'
+name = 'Create: Interiors'
+side = 'both'
+
+[download]
+hash = '5bb443471d97600e0cc556755067b84646ee1924'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5253011
+project-id = 906239

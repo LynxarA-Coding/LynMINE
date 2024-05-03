@@ -1,0 +1,13 @@
+filename = 'mythicmobs-1.19.2-fabric-1.4.5.jar'
+name = 'Mythic Mobs'
+side = 'both'
+
+[download]
+hash = '8e8479e70d46ed2df81c29932c7dbfee7fdfdcd8d7e95f9daa921bc25de2e0cec4bc5bddee430158df033d39d69e010080385538ca34f23083b7abb926350bc0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/avrKhvsK/versions/wWo8Qcvc/mythicmobs-1.19.2-fabric-1.4.5.jar'
+
+[update.modrinth]
+mod-id = 'avrKhvsK'
+version = 'wWo8Qcvc'

@@ -1,0 +1,13 @@
+filename = 'fabric-seasons-delight-1.3.9-compat-1.0.jar'
+name = 'Fabric Seasons: Delight Compat'
+side = 'both'
+
+[download]
+hash = '21d5240e95a5cdda5b33a77f24ab35a3ee4569c8'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4533190
+project-id = 859370

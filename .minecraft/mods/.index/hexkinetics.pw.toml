@@ -1,0 +1,13 @@
+filename = 'hexkinetics-fabric-1.19.2-0.7.2.jar'
+name = 'HexKinetics'
+side = 'both'
+
+[download]
+hash = 'daf87a091df41f8296b1370fccaf20739458e9fb706ca639e9b9931c7d701f8ddcf67dff2429414d64e210ca5dd9c87386e820cae912c8c6da533d6ff6cdf9c6'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/8FVr3ohp/versions/XpOc6KTa/hexkinetics-fabric-1.19.2-0.7.2.jar'
+
+[update.modrinth]
+mod-id = '8FVr3ohp'
+version = 'XpOc6KTa'

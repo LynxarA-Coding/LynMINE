@@ -1,0 +1,13 @@
+filename = 'mythicupgrades-1.5.1+1.19.2.jar'
+name = 'Mythic Upgrades'
+side = 'both'
+
+[download]
+hash = '44da6488c27402ac8fcba75ea2a8c5c510df11a4'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4388965
+project-id = 663567

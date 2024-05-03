@@ -1,0 +1,13 @@
+filename = 'fabric-seasons-croptopia-2.2.2-compat-1.0.jar'
+name = 'Fabric Seasons: Croptopia Compat'
+side = 'both'
+
+[download]
+hash = '561fa88280b3f6e7d716fd592faa4cdabd93eb93'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4496996
+project-id = 851600

@@ -1,0 +1,341 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "square"
+	filename: "wizards"
+	group: "0E4A8C39BCDAB44D"
+	icon: {
+		Count: 1b
+		id: "wizards:wand_netherite_frost"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "2A909EE8D9E8EA48"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["644B305E14F63EF4"]
+			id: "13997357C5249502"
+			rewards: [{
+				id: "2EAFDF927B667B82"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "6B8960247D26D4D4"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Fire Staff"
+			x: -2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "33341D467EEA71A6"
+			rewards: [{
+				id: "3FD07949A84247E9"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "71923CC860768B80"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Fire Wand"
+			x: -2.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "644B305E14F63EF4"
+			rewards: [{
+				id: "50072351D3BF62AA"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "7E1CC64F07DBE6EC"
+				item: {
+					Count: 1b
+					id: "wizards:staff_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Fire Staff"
+			x: -1.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "70FF3378F5DF82C9"
+			rewards: [{
+				id: "5685E79291C9A20D"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "7D1A1DC6730175EA"
+				item: {
+					Count: 1b
+					id: "wizards:staff_ruby_fire"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Ruby Fire Staff"
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "0A979CC078C693CA"
+			rewards: [{
+				id: "3B3F79675B36C79B"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "5E42598C5662006B"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Arcane Wand"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "3B1AD8C00515DF16"
+			rewards: [{
+				id: "3989CC0654D3483D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "6AC96FD3271B0DD1"
+				item: {
+					Count: 1b
+					id: "wizards:staff_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft an Arcane Staff"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3B1AD8C00515DF16"]
+			id: "61D5B2B8BED1E4EB"
+			rewards: [{
+				id: "6E0F98549C3E8A1D"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "46114AA95034961F"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Arcane Staff"
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "379A63D41D729B77"
+			rewards: [{
+				id: "1C469D9971C94368"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "0798EDC59FB49F55"
+				item: {
+					Count: 1b
+					id: "wizards:staff_crystal_arcane"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Crystal Arcane Staff"
+			x: 3.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "28664CB7E7273762"
+			rewards: [{
+				id: "0BB9CCEBE62D1C4E"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				id: "1277766948A0C0EC"
+				item: {
+					Count: 1b
+					id: "wizards:staff_smaragdant_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Smaragdant Frost Staff"
+			x: 3.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "0A0782E9E901A550"
+			rewards: [{
+				id: "6EBB4FD9E1ECB014"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				id: "49019C4A9789322E"
+				item: {
+					Count: 1b
+					id: "wizards:staff_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Frost Staff"
+			x: 0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["4E5BF03B142064B1"]
+			id: "68073475D22D5B97"
+			rewards: [{
+				id: "7F32F6AADEC6F663"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				id: "6B1688CFC02CE0ED"
+				item: {
+					Count: 1b
+					id: "wizards:wand_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Frost Wand"
+			x: 1.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0A0782E9E901A550"]
+			id: "7ABF63DA3D5646C6"
+			rewards: [{
+				id: "743AD51BEF272931"
+				type: "xp_levels"
+				xp_levels: 8
+			}]
+			tasks: [{
+				id: "64034C144842E8B5"
+				item: {
+					Count: 1b
+					id: "wizards:staff_netherite_frost"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Craft a Netherite Frost Staff"
+			x: 1.5d
+			y: -2.0d
+		}
+		{
+			id: "4E5BF03B142064B1"
+			rewards: [{
+				id: "617A64B480C42C91"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [
+				{
+					id: "687524B521A83C01"
+					item: {
+						Count: 1b
+						id: "wizards:wand_arcane"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "5973D1108142F8D3"
+					item: {
+						Count: 1b
+						id: "wizards:wand_fire"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7ABD7E90A39F22C2"
+					item: {
+						Count: 1b
+						id: "wizards:wand_frost"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Craft all 3 Wand types"
+			x: -0.5d
+			y: 0.5d
+		}
+	]
+	title: "&cWizards"
+}

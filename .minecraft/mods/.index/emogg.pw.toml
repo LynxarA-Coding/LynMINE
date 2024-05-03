@@ -1,0 +1,13 @@
+filename = 'emogg-1.0-BETA.8+1.19.2.jar'
+name = 'emogg'
+side = 'client'
+
+[download]
+hash = 'cb11988c459216a4cbad4e219d359b28a8511685ecbca4178cd6135083f6fb01e0bb604fd6055c2fbe3a4e78023f335d9d415f69f600d38377d5a85a78181b90'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/tyANotOf/versions/DNWGyp7x/emogg-1.0-BETA.8%2B1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'tyANotOf'
+version = 'DNWGyp7x'

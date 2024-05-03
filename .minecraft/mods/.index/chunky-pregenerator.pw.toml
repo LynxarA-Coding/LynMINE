@@ -1,0 +1,13 @@
+filename = 'Chunky-1.3.38.jar'
+name = 'Chunky (Fabric)'
+side = 'both'
+
+[download]
+hash = '55c845eb6f951f7ef9bffbc27e0bf36b881c71e2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3970963
+project-id = 433175

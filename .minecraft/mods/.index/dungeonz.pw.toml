@@ -1,0 +1,13 @@
+filename = 'dungeonz-1.0.1.jar'
+name = 'DungeonZ'
+side = 'both'
+
+[download]
+hash = 'd024dafa491411a205d9f36b46131d01fe14d362ea98ab9668dd8395ced3c46063d914aae99b0c21da7732af73f27a69242dc60e6ae4d2e1ebcb423270e4e2b0'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/11jwniuC/versions/Ukjd4XYm/dungeonz-1.0.1.jar'
+
+[update.modrinth]
+mod-id = '11jwniuC'
+version = 'Ukjd4XYm'

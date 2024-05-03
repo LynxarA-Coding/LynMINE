@@ -1,0 +1,16 @@
+{
+  "mindTrainingConfig": {
+    "impressionCostDust": 5,
+    "impressionMarkExpirationTimeSeconds": 3600,
+    "requiredRankImpressions": {
+      "2": 10,
+      "1": 5,
+      "5": 25,
+      "4": 20,
+      "3": 15
+    }
+  },
+  "patternConfig": {
+    "forceRecalculateMissing": false
+  }
+}

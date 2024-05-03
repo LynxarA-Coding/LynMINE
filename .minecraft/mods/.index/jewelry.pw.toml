@@ -1,0 +1,13 @@
+filename = 'Jewelry-1.1.0+1.19.2.jar'
+name = 'Jewelry (RPG Series)'
+side = 'both'
+
+[download]
+hash = 'c135f9e66d6543ac1fac19e2da7fea9b11948439fbbd3322f0a409287f6e85d47e9322fdc9474f33c7eca9b1ad8bd9d76a457026c12720f10a8e09dbb4c9dce1'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sNJAIjUm/versions/CwEN5pPv/Jewelry-1.1.0%2B1.19.2.jar'
+
+[update.modrinth]
+mod-id = 'sNJAIjUm'
+version = 'CwEN5pPv'

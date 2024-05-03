@@ -1,0 +1,13 @@
+filename = 'almostunified-fabric-1.19.2-0.8.1.jar'
+name = 'Almost Unified'
+side = 'server'
+
+[download]
+hash = '23a30713efcc7f9ef0714ecd853d35ebe0308eabf906f76898487271eb8e2c2ea39138c6b81125a215da3e3fed2f25a71e9b4e7d3fa26a8b864ea1d3ea5e0022'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/sdaSaQEz/versions/gXM8Ox27/almostunified-fabric-1.19.2-0.8.1.jar'
+
+[update.modrinth]
+mod-id = 'sdaSaQEz'
+version = 'gXM8Ox27'

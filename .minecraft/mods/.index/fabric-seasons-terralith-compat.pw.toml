@@ -1,0 +1,13 @@
+filename = 'fabric-seasons-terralith-2.3.7-compat-1.0.jar'
+name = 'Fabric Seasons: Terralith Compat'
+side = 'both'
+
+[download]
+hash = 'c6ccb276f21a170a61e4176e7e1ee9c7af38efbf'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4496995
+project-id = 839881

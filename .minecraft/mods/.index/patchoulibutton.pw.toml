@@ -1,0 +1,13 @@
+filename = 'patchoulibutton-1.0.2.jar'
+name = 'PatchouliButton'
+side = 'both'
+
+[download]
+hash = 'bf40f455aba806beac595eaf04bfe9ab2a2a0bff6e7cad4f9605258afe5345218c5ddcea6abc834d9f7a8aa135b14c2790976597e466640941ad806e21799368'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bTOwvKv9/versions/cnwrHxan/patchoulibutton-1.0.2.jar'
+
+[update.modrinth]
+mod-id = 'bTOwvKv9'
+version = 'cnwrHxan'

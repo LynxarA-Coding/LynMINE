@@ -1,0 +1,13 @@
+filename = 'ForgeConfigAPIPort-v4.2.11-1.19.2-Fabric.jar'
+name = 'Forge Config API Port'
+side = 'both'
+
+[download]
+hash = '00d05a6d57ee557ab216de5527e1434e3cf50c24'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4401535
+project-id = 547434

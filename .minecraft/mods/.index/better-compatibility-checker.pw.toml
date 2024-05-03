@@ -1,0 +1,13 @@
+filename = 'BetterCompatibilityChecker-Fabric-2.0.2-build.16+mc1.19.1.jar'
+name = 'Better Compatibility Checker'
+side = 'both'
+
+[download]
+hash = 'cd221a777414ccc5ea1fbdd71d2f6f1935382dfb86221171ca816d41779c22c5787774667309cea0552d0a74236701dac070e30a8111276baa70fa5983ecb7bb'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/KJhXPbHQ/versions/kACizCIT/BetterCompatibilityChecker-Fabric-2.0.2-build.16%2Bmc1.19.1.jar'
+
+[update.modrinth]
+mod-id = 'KJhXPbHQ'
+version = 'kACizCIT'

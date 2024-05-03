@@ -1,0 +1,13 @@
+filename = 'ftb-library-fabric-1902.4.1-build.236.jar'
+name = 'FTB Library (Fabric)'
+side = 'both'
+
+[download]
+hash = '2c24b2d94855c2fdd4b9268c625a9121fed017c2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4661833
+project-id = 438495

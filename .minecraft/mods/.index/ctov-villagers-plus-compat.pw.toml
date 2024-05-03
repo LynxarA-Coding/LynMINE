@@ -1,0 +1,13 @@
+filename = 'ctov-villagers-plus-compat-1.0.jar'
+name = 'CTOV - Villagers Plus Compat'
+side = 'server'
+
+[download]
+hash = '174925ac8524888458306e6493d17df532f4ea3d4a8825a7128871c5d70cfb4bd306547384d5028793dee3e5180d9d504317c64fedb4375d694ca5755cd7c4fc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/UiaFErsS/versions/PFFmLtfC/ctov-villagers-plus-compat-1.0.jar'
+
+[update.modrinth]
+mod-id = 'UiaFErsS'
+version = 'PFFmLtfC'

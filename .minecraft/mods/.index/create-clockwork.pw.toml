@@ -1,0 +1,13 @@
+filename = 'clockwork-1.19.2-0.1.16-fabric-1c97c03c94.jar'
+name = 'Clockwork'
+side = 'both'
+
+[download]
+hash = '01505b9aa74d4919a12bc18ad29d54ea807ffeface86f1d1b65bff67e63c7e25b58f53c8b601d6ef0184508c3ba234a2adaea7a1cf9f24a9b1379cc41dfbb793'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/84USeAvk/versions/okvheSWL/clockwork-1.19.2-0.1.16-fabric-1c97c03c94.jar'
+
+[update.modrinth]
+mod-id = '84USeAvk'
+version = 'okvheSWL'

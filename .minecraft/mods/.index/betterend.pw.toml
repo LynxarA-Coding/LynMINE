@@ -1,0 +1,13 @@
+filename = 'better-end-2.1.7.jar'
+name = 'BetterEnd'
+side = 'both'
+
+[download]
+hash = '589e4c3517d7cce903aa674ef8ee815df3c0a23dd60f074bd7e31c16c03c3cf0ea5c61703b613144b70fb5ab8bfb1bf041bc9941ac340ce9cd5bc3db7150bc36'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gc8OEnCC/versions/F3omRrtz/better-end-2.1.7.jar'
+
+[update.modrinth]
+mod-id = 'gc8OEnCC'
+version = 'F3omRrtz'

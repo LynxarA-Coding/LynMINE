@@ -1,0 +1,13 @@
+filename = 'emerald-expansion-1.0+1.19.2.jar'
+name = 'Another Emerald Expansion'
+side = 'both'
+
+[download]
+hash = 'e58106a3688e3f2ab0d57b3728be24ce206277dc'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 4119440
+project-id = 714283

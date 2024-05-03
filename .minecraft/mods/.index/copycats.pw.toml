@@ -1,0 +1,13 @@
+filename = 'Copycats-fabric.1.19.2-1.2.5.jar'
+name = 'Create: Copycats+'
+side = 'both'
+
+[download]
+hash = 'ebd2417c2216fdf268a7c6a75c75afba6757d794'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5214895
+project-id = 968398

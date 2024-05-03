@@ -1,0 +1,79 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chex_casting"
+	group: "0E4A8C39BCDAB44D"
+	icon: "hexlink:vortex"
+	id: "779A793F34B7F6A8"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Гайд по Hex Casting и Аддонам: &chttps://hexcasting.hexxy.media/v/latest/main/ru_ru/#basics"
+				"{@pagebreak}"
+			]
+			id: "313E2A59669A1211"
+			subtitle: "Установленные Аддоны: Hexal, Hex Gloop, Morelotas, HexKinetics, Hexlinks, Hex Research, Hex Keys, Hex VR"
+			tasks: [{
+				id: "2C888D8D7C7DA449"
+				title: "Начало"
+				type: "checkmark"
+			}]
+			x: 0.5d
+			y: 0.5d
+		}
+		{
+			dependencies: ["313E2A59669A1211"]
+			dependency_requirement: "one_completed"
+			id: "63E9657E535F37FF"
+			subtitle: "Альтернативный Гайд по Моду"
+			tasks: [{
+				id: "11D5DC5F60DDC25F"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "hexcasting:thehexbook"
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["63E9657E535F37FF"]
+			id: "2D0B338DFF41E8B7"
+			subtitle: "Найди Жеоду и добудь парочку Аметистов"
+			tasks: [
+				{
+					count: 4L
+					id: "2C58DACF6EEA21A7"
+					item: "minecraft:amethyst_shard"
+					type: "item"
+				}
+				{
+					id: "3C89A2A983FD7B57"
+					item: "hexcasting:charged_amethyst"
+					type: "item"
+				}
+			]
+			title: "Начальный Ресурс Мага"
+			x: 0.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2D0B338DFF41E8B7"]
+			id: "7F53D70CD1ADED40"
+			tasks: [{
+				id: "3352DCDC43F2EDF7"
+				item: "hexcasting:oak_staff"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 5.0d
+		}
+	]
+	title: "&cHex Casting"
+}

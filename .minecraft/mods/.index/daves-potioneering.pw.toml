@@ -1,0 +1,13 @@
+filename = 'davespotioneering-fabric-1.19.2-1.4.2.jar'
+name = "Dave's Potioneering"
+side = 'both'
+
+[download]
+hash = 'f06e87d8db6b480d69c0725779573c5910bbbebf787f181c42abebc60dec7c54cfb7049969185625150930bde35b7b895d96b115fbb99476311b237133fdd3bf'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/TaH1eXdZ/versions/agqlevDI/davespotioneering-fabric-1.19.2-1.4.2.jar'
+
+[update.modrinth]
+mod-id = 'TaH1eXdZ'
+version = 'agqlevDI'

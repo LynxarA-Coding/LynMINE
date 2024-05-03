@@ -1,0 +1,13 @@
+filename = 'tectonic-fabric-1.19-2.3.4.jar'
+name = 'Tectonic'
+side = 'both'
+
+[download]
+hash = '0209b06b4536eb4b27ca2d835c64c4abf9f8b0f2'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5245753
+project-id = 686836

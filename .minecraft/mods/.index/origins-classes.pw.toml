@@ -1,0 +1,13 @@
+filename = 'Origins-Classes-1.19-1.4.0.jar'
+name = 'Origins: Classes'
+side = 'both'
+
+[download]
+hash = '0e789bc4f5c5150f5e62b5955adce8b528aabcda'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 3827906
+project-id = 401833

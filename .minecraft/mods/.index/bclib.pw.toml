@@ -1,0 +1,13 @@
+filename = 'bclib-2.1.8.jar'
+name = 'BCLib'
+side = 'both'
+
+[download]
+hash = '3adea4936e480174b79e6caf481f0ae3f1514f295996e8fb033fa65f74a25bc140d56138b808edad869e9738d2955379e18c1bbe806cbf927a061e8097a1b071'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/BgNRHReB/versions/Z8nIBt5J/bclib-2.1.8.jar'
+
+[update.modrinth]
+mod-id = 'BgNRHReB'
+version = 'Z8nIBt5J'

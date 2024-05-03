@@ -1,0 +1,13 @@
+filename = 'basicweapons-fabric-mc1.19.2+1.2.0.jar'
+name = 'Basic Weapons'
+side = 'both'
+
+[download]
+hash = 'f4d7ee56f09480338db535d19f1a0bcc3e358dca'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5164317
+project-id = 917144
