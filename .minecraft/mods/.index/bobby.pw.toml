@@ -1,13 +1,13 @@
 filename = 'bobby-4.0.1.jar'
 name = 'Bobby'
-side = 'both'
+side = 'client'
 
 [download]
-hash = '3f7be87e0416ec055498324f6a5d896cdb07c589'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '85dac6bf9aad379ccb0b229c5b07a34e3d2a83a9df89553f5794f66cb10411ddc46da8af98797ce518c40df3375d6c4b0241061952b98dd39d8b0cbcada74f2d'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/M08ruV16/versions/5UUzbXgz/bobby-4.0.1.jar'
 
-[update.curseforge]
-file-id = 4096481
-project-id = 409301
+[update.modrinth]
+mod-id = 'M08ruV16'
+version = '5UUzbXgz'

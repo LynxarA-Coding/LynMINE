@@ -1,0 +1,27 @@
+{
+	id: "27d53477-7e0a-4361-a3b4-7d1267693bd9"
+	type: "player"
+	player_name: "LynxarA"
+	ranks: {
+		27d53477-7e0a-4361-a3b4-7d1267693bd9: "owner"
+	}
+	properties: {
+		"ftbchunks:allow_explosions": 0b
+		"ftbchunks:allow_mob_griefing": 0b
+		"ftbchunks:allow_fake_players": 0b
+		"ftbchunks:allow_named_fake_players": [ ]
+		"ftbchunks:allow_fake_players_by_id": 1b
+		"ftbchunks:block_edit_and_interact_mode": "allies"
+		"ftbchunks:entity_interact_mode": "allies"
+		"ftbchunks:nonliving_entity_attack_mode": "allies"
+		"ftbchunks:claim_visibility": "public"
+		"ftbchunks:location_mode": "allies"
+		"ftbteams:display_name": "LynxarA"
+		"ftbteams:description": ""
+		"ftbteams:color": "#FFE959"
+		"ftbteams:free_to_join": 0b
+		"ftbteams:max_msg_history_size": 1000
+	}
+	message_history: [ ]
+	extra: { }
+}
