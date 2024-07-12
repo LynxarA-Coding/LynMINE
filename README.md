@@ -1,8 +1,9 @@
 # LynMINE
 
 Сборка Майнкрафт 1.19.2 с ~300 модами. <br>
+Minecraft Modpack 1.19.2 with around 300 mods <br>
 <details>
-<summary>Список Модов</summary>
+<summary>Список Модов / Modlist</summary>
 <ul>
 	<li>Modern Dynamics</li>
 	<li>Villagers Plus</li>
@@ -296,4 +297,4 @@
 </ul>
 </details>
 
-Рекомендую использовать Prism Launcher - [СКАЧАТЬ](https://prismlauncher.org/download/?from=button)
+Рекомендую использовать Prism Launcher / I recommend downloading Prism Launcher - [СКАЧАТЬ/DOWNLOAD](https://prismlauncher.org/download/?from=button)
