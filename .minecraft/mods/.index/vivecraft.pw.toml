@@ -1,13 +1,13 @@
-filename = 'vivecraft-1.19.2-1.1.9-fabric.jar'
+filename = 'vivecraft-1.19.2-1.1.11-fabric.jar'
 name = 'Vivecraft'
 side = 'both'
 
 [download]
-hash = '6397375a5520d7d2ea4e7b95317fdcc2a48ccdfea82acde4287bfc1f48b9aeece682cf13febbfabfbaf54f0ce2cb61bc06c2bf8d0c7bb59a547e1f7b9214dfff'
+hash = '79d9733f168cfd9bd3843f9bf36f04dedb4b81e04404aefd8771d9d05c5a7a32518013e1a270f2ec58c153f47026f7ef0de82498cc04bfd3da2db3142e72c2b5'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/wGoQDPN5/versions/GRKk4avh/vivecraft-1.19.2-1.1.9-fabric.jar'
+url = 'https://cdn.modrinth.com/data/wGoQDPN5/versions/7XwtgvYz/vivecraft-1.19.2-1.1.11-fabric.jar'
 
 [update.modrinth]
 mod-id = 'wGoQDPN5'
-version = 'GRKk4avh'
+version = '7XwtgvYz'

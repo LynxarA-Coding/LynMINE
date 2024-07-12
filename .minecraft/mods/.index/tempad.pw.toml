@@ -1,0 +1,13 @@
+filename = 'tempad-fabric-1.19.2-1.4.5.jar'
+name = 'Tempad'
+side = 'both'
+
+[download]
+hash = '8dd4d6b9333bdd1d47563d518fd440bc5d3865232761604740c9710b1fa8c3d80ae712f35cad3fd658e2e0b9232219160bc778fa55088aefabc8db1ad8db6acd'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gKNwt7xu/versions/lA3TMRL5/tempad-fabric-1.19.2-1.4.5.jar'
+
+[update.modrinth]
+mod-id = 'gKNwt7xu'
+version = 'lA3TMRL5'

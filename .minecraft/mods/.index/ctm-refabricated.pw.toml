@@ -1,0 +1,13 @@
+filename = 'ctm-refabricated-1.0.1+1.19.jar'
+name = 'CTM Refabricated'
+side = 'client'
+
+[download]
+hash = '0616a77e5b3d3ee02cb2d1a561d5f8eae8e1e6451f6ecf8a8bf423377eeabc9c8d334e2bbd5b6fe8b28efd99eed676dc7383d08c31b5db8fb648a13925bda560'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/syUFsyMr/versions/GhkzxV3G/ctm-refabricated-1.0.1%2B1.19.jar'
+
+[update.modrinth]
+mod-id = 'syUFsyMr'
+version = 'GhkzxV3G'

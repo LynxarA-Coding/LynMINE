@@ -1,13 +1,13 @@
-filename = 'tectonic-fabric-1.19-2.3.4.jar'
+filename = 'tectonic-fabric-1.19-2.3.5a.jar'
 name = 'Tectonic'
 side = 'both'
 
 [download]
-hash = '0209b06b4536eb4b27ca2d835c64c4abf9f8b0f2'
+hash = 'a3f61db2960ceee662b360b9387230c950b34619'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5245753
+file-id = 5400765
 project-id = 686836

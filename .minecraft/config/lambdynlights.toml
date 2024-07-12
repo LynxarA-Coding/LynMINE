@@ -68,10 +68,16 @@ mode = "fancy"
 				stray = true
 				salmon = true
 				painting = true
+				tnt_minecart = true
+				tropical_fish = true
+				pufferfish = true
+				boat = true
+				turtle = true
 
 			[light_sources.settings.entities.promenade]
 				duck = true
 				lush_creeper = true
+				sunken_skeleton = true
 
 			[light_sources.settings.entities.naturalist]
 				robin = true
@@ -135,6 +141,8 @@ mode = "fancy"
 				snowy_creeper = true
 				beach_creeper = true
 				hills_creeper = true
+				ocean_creeper = true
+				spruce_creeper = true
 
 			[light_sources.settings.entities.guardvillagers]
 				guard = true
@@ -143,4 +151,12 @@ mode = "fancy"
 				geckotoalizard = true
 				dragon = true
 				firebird = true
+				direwolf = true
+
+			[light_sources.settings.entities.lootr]
+				lootr_minecart = true
+
+			[light_sources.settings.entities.minecells]
+				leaping_zombie = true
+				shieldbearer = true
 

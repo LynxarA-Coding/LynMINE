@@ -1,0 +1,3318 @@
+{
+	// Default time in seconds that food should last per saturation level
+	"defaultTimer": 180,
+	// Speed at which regeneration should occur
+	"regenSpeedModifier": 1.0,
+	// Time in ticks that regeneration should wait after taking damage
+	"regenDelay": 200,
+	// Time in seconds after spawning before sprinting is disabled
+	"respawnGracePeriod": 300,
+	// Extra speed given when your hearts are full (0 to disable)
+	"speedBoost": 0.20000000298023224,
+	// Number of hearts to start with
+	"startingHealth": 3,
+	// Number of food slots (range 2-5, default 3)
+	"maxSlots": 3,
+	// Percentage remaining before you can eat again
+	"eatAgainPercentage": 0.20000000298023224,
+	// Boost given to other foods when drinking
+	"drinkSlotFoodEffectivenessBonus": 0.10000000149011612,
+	// Simulate food ticking down during night
+	"passTicksDuringNight": true,
+	/*     Food nutrition and effect overrides (Auto Generated if Empty)
+	       - nutrition: Affects Heart Gain & Health Regen
+	       - saturationModifier: Affects Food Duration & Player Speed
+	       - healthRegenModifier: Multiplies health regen speed
+	       - extraEffects: Extra effects provided by eating the food. Format: { String ID, float duration, int amplifier }
+	*/
+	"foodConfigs": {
+		"farmersdelight:melon_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:greenbean": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:honeydew": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:spider_eye": {
+			"nutrition": 2,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:apple": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:orange": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:radish": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"artifacts:eternal_steak": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:roast_chicken": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:apple_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tomatillo": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fried_frog_legs": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:hook_mushroom_cooked": {
+			"nutrition": 4,
+			"saturationModifier": 0.4000000059604645,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tuna": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cucumber": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:bacon": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:melon_popsicle": {
+			"nutrition": 3,
+			"saturationModifier": 0.2200000137090683,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:chicken_cuts": {
+			"nutrition": 1,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:rum": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:cooked_mammoth_meat": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:stir_fried_shulker_meat": {
+			"nutrition": 10,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:sunny_side_eggs": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:horchata": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:melon_slice": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:chicken_soup": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:wheat_dough": {
+			"nutrition": 2,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:cheese_pizza": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cod": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:sticky_toffee_pudding": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:noodle_soup": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:pumpkin_soup": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:minced_beef": {
+			"nutrition": 2,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"naturalist:cooked_catfish": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:herbal_medicine": {
+			"nutrition": 0,
+			"saturationModifier": 0.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:limeade": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:duck": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:yam": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:soybean": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pineapple_pepperoni_pizza": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:saucy_chips": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:sweet_berry_cheesecake_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"minecraft:sweet_berries": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pizza": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pecan_ice_cream": {
+			"nutrition": 7,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:olive": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"botania:mana_bottle": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:macaron": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:end_fish_cooked": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:currant": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:banana": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:clam": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:snicker_doodle": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:baked_beans": {
+			"nutrition": 5,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicupgrades:jade_apple": {
+			"nutrition": 4,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cooked_salmon_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:fried_egg": {
+			"nutrition": 5,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"minecraft:enchanted_golden_apple": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.5,
+			"extraEffects": []
+		},
+		"minecells:health_flask": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cauliflower": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:brownies": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chocolate_ice_cream": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:honey_cookie": {
+			"nutrition": 2,
+			"saturationModifier": 0.11000000685453415,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:cinnamon_roll": {
+			"nutrition": 8,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:leafy_salad": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:raspberry_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:trail_mix": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:buttered_toast": {
+			"nutrition": 9,
+			"saturationModifier": 1.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tofuburger": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicmobs:chupacabra_cooked_meat_skewer": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:crab_legs": {
+			"nutrition": 11,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:shadow_berry_raw": {
+			"nutrition": 4,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:dauphine_potatoes": {
+			"nutrition": 12,
+			"saturationModifier": 1.2999999523162842,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:grapefruit": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:supreme_pizza": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:garlic": {
+			"nutrition": 1,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:leek": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:leek_soup": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:deep_fried_shrimp": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:blueberry_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:rotten_flesh": {
+			"nutrition": 4,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:bass": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cooked_bacon": {
+			"nutrition": 7,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:roasted_shulker_meat_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tomato": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:celery": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:french_fries": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_fruit_popsicle": {
+			"nutrition": 3,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:black_apple": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:croque_madame": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"create:chocolate_glazed_berries": {
+			"nutrition": 7,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:peanut": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:zucchini": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:anchovy": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:rhino_meat": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:dragon_meat_stew": {
+			"nutrition": 10,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:oatmeal": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:rice": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:candied_kumquats": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chimichanga": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:almond_brittle": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:umbrella_cluster_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:roasted_dragon_meat": {
+			"nutrition": 15,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:beetroot_salad": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tea": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:chorus_mushroom_raw": {
+			"nutrition": 3,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:bone_broth": {
+			"nutrition": 2,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:hashed_brown": {
+			"nutrition": 2,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:kale_chips": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:walnut": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"promenade:cooked_duck": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:butter": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:dragon_breath_and_chorus_soup": {
+			"nutrition": 16,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_cookie": {
+			"nutrition": 2,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:lettuce": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:dumplings": {
+			"nutrition": 10,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:cod_slice": {
+			"nutrition": 1,
+			"saturationModifier": 0.11000000685453415,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"create:builders_tea": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tuna_sandwich": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:basil": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:glow_berry_custard": {
+			"nutrition": 8,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:apricot_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicupgrades:topaz_apple": {
+			"nutrition": 4,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:orange_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:caesar_salad": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:cooked_ender_whale_meat": {
+			"nutrition": 8,
+			"saturationModifier": 0.8999999761581421,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cherry_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:egg_sandwich": {
+			"nutrition": 10,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:saguaro_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:poisonous_potato": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:mushroom_rice": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:ham": {
+			"nutrition": 6,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:burrito": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cooked_mutton_chops": {
+			"nutrition": 3,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:cake_slice": {
+			"nutrition": 2,
+			"saturationModifier": 0.11000000685453415,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:popcorn": {
+			"nutrition": 3,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:onion": {
+			"nutrition": 2,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:kiwi": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:crema": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:calamari": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:vegetable_soup": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:fruit_salad": {
+			"nutrition": 7,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:pecan": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pineapple_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tofu_and_dumplings": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:steamed_crab": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:golden_apple": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.5,
+			"extraEffects": []
+		},
+		"croptopia:elderberry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:mixed_salad": {
+			"nutrition": 7,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:starfruit": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:amber_root_raw": {
+			"nutrition": 2,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:sushi": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:ajvar": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:beef_wellington": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:blackberry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roe": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:glowing_calamari": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:barley": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:date": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:beef_stew": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:nutmeg": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:peanut_butter": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cabbage_rolls": {
+			"nutrition": 7,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:ajvar_toast": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:milk_bottle": {
+			"nutrition": 7,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"bewitchment:bottle_of_blood": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cantaloupe": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:buttered_green_beans": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:ratatouille": {
+			"nutrition": 12,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:tortilla": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fried_calamari": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:mushroom_stew": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cashew": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:end_barbecue_stick": {
+			"nutrition": 10,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_fruit_grain": {
+			"nutrition": 1,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:steamed_broccoli": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:yam_jam": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:beef_stir_fry": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:scrambled_eggs": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:apricot": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:anchovy_pizza": {
+			"nutrition": 15,
+			"saturationModifier": 1.2999999523162842,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:persimmon": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:toast": {
+			"nutrition": 7,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicmobs:chupacabra_raw_meat": {
+			"nutrition": 4,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cheeseburger": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:saguaro": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:strawberry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:baked_potato": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:beef_patty": {
+			"nutrition": 5,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:chicken_and_noodles": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:glow_berries": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:grotesque_stew": {
+			"nutrition": 8,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:steamed_clams": {
+			"nutrition": 11,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:roasted_dragon_steak": {
+			"nutrition": 18,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:plum": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cranberry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:lingering_potion": {
+			"nutrition": 4,
+			"saturationModifier": 0.75,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_rabbit": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:dragon_breath_soda": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:beetroot_soup": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cabbage": {
+			"nutrition": 2,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:meringue": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roasted_sunflower_seeds": {
+			"nutrition": 4,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cheesy_asparagus": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:stuffed_rice_cake": {
+			"nutrition": 6,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:pumpkin_pie": {
+			"nutrition": 8,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:porkchop": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:trifle": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:steak_and_potatoes": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:tamales": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"galosphere:golden_lichen_cordyceps": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:asparagus": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:steamed_green_beans": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:churros": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cooked_anchovy": {
+			"nutrition": 4,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cherry_pie": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:onion_rings": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"promenade:mango": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:ground_pork": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:dried_kelp": {
+			"nutrition": 1,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:warthog_meat": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:sea_lettuce": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:lemon_coconut_bar": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:beef_stew": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:lemon_chicken": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:kumquat": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"promenade:blueberries": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_fruit_milk_tea": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:melon_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:artichoke": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:stalagnate_bowl_apple": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:salsa": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicupgrades:sapphire_apple": {
+			"nutrition": 4,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:raisins": {
+			"nutrition": 3,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:blt": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:smoked_ham": {
+			"nutrition": 12,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"adventurez:cooked_venison": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:shadow_berry_jelly": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roasted_pumpkin_seeds": {
+			"nutrition": 4,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:lemon": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pumpkin_bars": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:garlic": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:pufferfish": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cooked_rice": {
+			"nutrition": 7,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"minecraft:tropical_fish": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cooked_chicken_cuts": {
+			"nutrition": 3,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:nether_wart_stew": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:end_fish_raw": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"botania:brew_flask": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:grilled_cheese": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:bolux_mushroom_cooked": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cake": {
+			"nutrition": 10,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:shepherds_pie": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:blackberry_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:mead": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:bread": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:squash": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"clutter:beer_mug": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:raw_dragon_meat": {
+			"nutrition": 8,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pumpkin_soup": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:vegetable_noodles": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:egg_roll": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cooked_calamari": {
+			"nutrition": 5,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:strawberry_smoothie": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cookie": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:blossom_berry": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:kelp_roll_slice": {
+			"nutrition": 7,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"ends_delight:dragon_leg": {
+			"nutrition": 8,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:liquid_dragon_egg": {
+			"nutrition": 14,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:sweet_crepes": {
+			"nutrition": 8,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:strawberry_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:venison": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:golden_carrot": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:taco": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chocolate": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ad_astra:cheese": {
+			"nutrition": 4,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:chicken_sandwich": {
+			"nutrition": 12,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"minecraft:potato": {
+			"nutrition": 1,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:lemonade": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:hamburger": {
+			"nutrition": 13,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"ends_delight:end_mixed_salad": {
+			"nutrition": 12,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:rabbit": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:mutton_chops": {
+			"nutrition": 1,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:sausage": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:figgy_pudding": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:quiche": {
+			"nutrition": 12,
+			"saturationModifier": 1.2999999523162842,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:nougat": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:treacle_tart": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:blackbean": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:agave_medicine": {
+			"nutrition": 0,
+			"saturationModifier": 0.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:milk_bucket": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:wine": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:pumpkin_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:strawberry_ice_cream": {
+			"nutrition": 7,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pork_jerky": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:potato_chips": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:grilled_shulker": {
+			"nutrition": 8,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chicken_and_rice": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:beef": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:ender_sauce": {
+			"nutrition": 3,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:bellpepper": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:beer": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:apple_pie": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"botania:mana_cookie": {
+			"nutrition": 0,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cherry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"hexgloop:hexxyos": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:dragonfruit": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fig": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:peach_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:shadow_berry_cooked": {
+			"nutrition": 6,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"galosphere:lichen_cordyceps": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roasted_squash": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:raw_ender_mite_meat": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:honey_glazed_ham": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:pasta_with_meatballs": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:mutton_wrap": {
+			"nutrition": 13,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"ends_delight:shulker_meat": {
+			"nutrition": 4,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:goulash": {
+			"nutrition": 16,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_flower_pie": {
+			"nutrition": 4,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:oat": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:beetroot": {
+			"nutrition": 1,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:garlic_bread": {
+			"nutrition": 10,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:roasted_dragon_meat_cuts": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:ender_whale_meat": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:bacon": {
+			"nutrition": 2,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:stir_fry": {
+			"nutrition": 12,
+			"saturationModifier": 1.2999999523162842,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:shepherds_pie": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:crab": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:bacon_and_eggs": {
+			"nutrition": 12,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"adventurez:mammoth_meat": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"botania:brew_vial": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_porkchop": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:apple_cider": {
+			"nutrition": 2,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:artichoke_dip": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:refried_beans": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_cod": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:mango_ice_cream": {
+			"nutrition": 7,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tomato_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cabbage_leaf": {
+			"nutrition": 1,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:grape_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:cave_pumpkin_pie": {
+			"nutrition": 8,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:the_big_breakfast": {
+			"nutrition": 20,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:dog_food": {
+			"nutrition": 5,
+			"saturationModifier": 0.2200000137090683,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_succulent": {
+			"nutrition": 2,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:corn": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:stalagnate_bowl_wart": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:kale_smoothie": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:blueberry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:tomato_sauce": {
+			"nutrition": 5,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:protein_bar": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:nutty_cookie": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chili_relleno": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:witchberry_pie": {
+			"nutrition": 8,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:chocolate_pie_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"modern_industrialization:mixed_ingot_iridium": {
+			"nutrition": 20,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:roasted_mutton_chops": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:onion": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:kiwi_sorbet": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:pie_crust": {
+			"nutrition": 2,
+			"saturationModifier": 0.2200000137090683,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:salmon_slice": {
+			"nutrition": 1,
+			"saturationModifier": 0.11000000685453415,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:cooked_shrimp": {
+			"nutrition": 5,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fruit_salad": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:suspicious_stew": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:turnip": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:vanilla_ice_cream": {
+			"nutrition": 7,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:peach": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:potion": {
+			"nutrition": 4,
+			"saturationModifier": 0.75,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicupgrades:aquamarine_fish": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:splash_potion": {
+			"nutrition": 4,
+			"saturationModifier": 0.75,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:avocado": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"clutter:hops": {
+			"nutrition": 1,
+			"saturationModifier": 0.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:chicken": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"promenade:banana": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:yoghurt": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:beef_jerky": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:potato_soup": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:barbecue_stick": {
+			"nutrition": 10,
+			"saturationModifier": 0.9900000095367432,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:nether_salad": {
+			"nutrition": 6,
+			"saturationModifier": 0.4400000274181366,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"ends_delight:assorted_salad": {
+			"nutrition": 18,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:grape_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:coffee_beans": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_fruit_wine": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicupgrades:ametrine_apple": {
+			"nutrition": 4,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:mashed_potatoes": {
+			"nutrition": 9,
+			"saturationModifier": 1.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:squid_ink_pasta": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:cooked_tuna": {
+			"nutrition": 6,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:toast_with_jam": {
+			"nutrition": 9,
+			"saturationModifier": 1.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cooked_bacon": {
+			"nutrition": 5,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:kale": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:cooked_venison": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:tomato": {
+			"nutrition": 1,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:stuffed_poblanos": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_fruit_pie_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:cod_roll": {
+			"nutrition": 8,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:cabbage_roll": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:blossom_berry_jelly": {
+			"nutrition": 8,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:toast_sandwich": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:carnitas": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:baked_crepes": {
+			"nutrition": 12,
+			"saturationModifier": 1.2999999523162842,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:nectarine": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:roasted_shulker_meat": {
+			"nutrition": 6,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"artifacts:everlasting_beef": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:chorus_flower_tea": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:ratatouille": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:chorus_mushroom_cooked": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:stuffed_artichoke": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:raisin_oatmeal_cookie": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:shulker_meat_slice": {
+			"nutrition": 2,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:cooked_lizard_tail": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:bacon_sandwich": {
+			"nutrition": 12,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:chile_pepper": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:bubble_tea": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:avocado_toast": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pumpkin_spice_latte": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:scones": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fish_and_chips": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:quesadilla": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:cooked_duck": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:honey_bottle": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:rum_raisin_ice_cream": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_mutton": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:almond": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:witchberry_cookie": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:grilled_garlic": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:grilled_salmon": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:rhubarb": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:soy_milk": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pecan_pie": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:cooked_rhino_meat": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:chorus_fruit": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:baked_cod_stew": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:cashew_chicken": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"hexcasting:sub_sandwich": {
+			"nutrition": 14,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:spaghetti_squash": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"create:honeyed_apple": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:greenonion": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cabbage": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_salmon": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:mango": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:eton_mess": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:salmon_roll": {
+			"nutrition": 8,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"promenade:duck": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fruit_cake": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cucumber_salad": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:eggplant": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:coffee": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:veggie_salad": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:rhubarb_crisp": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"create:bar_of_chocolate": {
+			"nutrition": 6,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pork_and_beans": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:eggplant_parmesan": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:lime": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecells:monsters_eye": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:frog_legs": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cheese": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:cooked_iguana_meat": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:witchberry": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cheese_cake": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:cooked_warthog_meat": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:shrimp": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecells:guts": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tofu": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:candied_nuts": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roasted_turnips": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roasted_radishes": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:roasted_nuts": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fruit_smoothie": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:doughnut": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:catfish": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:steamed_rice": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:baked_sweet_potato": {
+			"nutrition": 5,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:sweet_potato_fries": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:cooked_bass": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:elderberry_jam": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:pasta_with_mutton_chop": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:roasted_asparagus": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tostada": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:banana_nut_bread": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"naturalist:lizard_tail": {
+			"nutrition": 2,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"hexgloop:hex_snack": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:sweet_berry_cookie": {
+			"nutrition": 2,
+			"saturationModifier": 0.11000000685453415,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"create:sweet_roll": {
+			"nutrition": 6,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:grape": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"mythicupgrades:ruby_apple": {
+			"nutrition": 4,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bewitchment:demon_heart": {
+			"nutrition": 8,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:kelp_roll": {
+			"nutrition": 15,
+			"saturationModifier": 0.6600000262260437,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:fajitas": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:raspberry": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:rabbit_stew": {
+			"nutrition": 10,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:hot_cocoa": {
+			"nutrition": 2,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:croque_monsieur": {
+			"nutrition": 13,
+			"saturationModifier": 1.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:peanut_butter_with_celery": {
+			"nutrition": 7,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:rhubarb_pie": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:steamed_dragon_egg": {
+			"nutrition": 12,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:spinach": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"bosses_of_mass_destruction:crystal_fruit": {
+			"nutrition": 4,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pepperoni": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:corn_bread": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:smoked_dragon_leg": {
+			"nutrition": 14,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tres_leche_cake": {
+			"nutrition": 18,
+			"saturationModifier": 1.100000023841858,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:tuna_roll": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:pineapple": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:carrot": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:fried_chicken": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:fried_rice": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:cooked_cod_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.550000011920929,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"naturalist:cooked_egg": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:grilled_eggplant": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_chicken": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:mutton": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:ender_congee": {
+			"nutrition": 10,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:banana_cream_pie": {
+			"nutrition": 14,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:fried_dragon_egg": {
+			"nutrition": 20,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betternether:stalagnate_bowl_mushroom": {
+			"nutrition": 6,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:oyster": {
+			"nutrition": 1,
+			"saturationModifier": 0.20000000298023224,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:dried_endermite_meat": {
+			"nutrition": 5,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:enchilada": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:iguana_meat": {
+			"nutrition": 2,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:raw_pasta": {
+			"nutrition": 2,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:pear": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:cooked_beef": {
+			"nutrition": 8,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"promenade:apricot": {
+			"nutrition": 4,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cranberry_juice": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:coconut": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:stuffed_pumpkin": {
+			"nutrition": 17,
+			"saturationModifier": 0.8250000476837158,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"farmersdelight:stuffed_potato": {
+			"nutrition": 12,
+			"saturationModifier": 0.7699999809265137,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"ends_delight:raw_dragon_meat_cuts": {
+			"nutrition": 3,
+			"saturationModifier": 0.6000000238418579,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chicken_and_dumplings": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"adventurez:raw_venison": {
+			"nutrition": 3,
+			"saturationModifier": 0.30000001192092896,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:hamburger": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:ham_sandwich": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:cornish_pasty": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:borscht": {
+			"nutrition": 12,
+			"saturationModifier": 1.2999999523162842,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"minecraft:salmon": {
+			"nutrition": 2,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"clutter:cotton": {
+			"nutrition": 1,
+			"saturationModifier": 0.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"hexcasting:creative_unlocker": {
+			"nutrition": 20,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:apple_pie_slice": {
+			"nutrition": 3,
+			"saturationModifier": 0.33000001311302185,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:broccoli": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:rutabaga": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"ends_delight:dragon_leg_with_sauce": {
+			"nutrition": 10,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:chocolate_milkshake": {
+			"nutrition": 6,
+			"saturationModifier": 1.0,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:baked_yam": {
+			"nutrition": 5,
+			"saturationModifier": 0.800000011920929,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"betterend:sweet_berry_jelly": {
+			"nutrition": 8,
+			"saturationModifier": 0.699999988079071,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:banana_smoothie": {
+			"nutrition": 2,
+			"saturationModifier": 0.5,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"farmersdelight:fish_stew": {
+			"nutrition": 15,
+			"saturationModifier": 0.8800000548362732,
+			"healthRegenModifier": 1.25,
+			"extraEffects": []
+		},
+		"croptopia:sweetpotato": {
+			"nutrition": 1,
+			"saturationModifier": 0.10000000149011612,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:grilled_oysters": {
+			"nutrition": 11,
+			"saturationModifier": 1.399999976158142,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:candy_corn": {
+			"nutrition": 5,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		},
+		"croptopia:peanut_butter_and_jam": {
+			"nutrition": 10,
+			"saturationModifier": 1.2000000476837158,
+			"healthRegenModifier": 1.0,
+			"extraEffects": []
+		}
+	}
+}

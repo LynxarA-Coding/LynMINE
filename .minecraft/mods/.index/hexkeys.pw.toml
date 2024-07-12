@@ -1,13 +1,13 @@
-filename = 'hexkeys-fabric-1.19.2-0.1.1.jar'
+filename = 'hexkeys-fabric-1.19.2-0.1.2.jar'
 name = 'Hex Keys'
 side = 'both'
 
 [download]
-hash = '5e01285e710220c6663bcabac1187c8459c4ef2a40029a84bf27727fb28c49e9aa0e73e1c93a4b4928da3b31ff1178ac3207a9476a47d4f4f17381bfc49557c3'
+hash = '1a0df190a49255c3a8eb4f1eaaaf9a29915293823aa7278ac9c556884f3baf734c944ce3c10123e4bf8cd7232c18f0efab71f60d98f197f60f5cd576b171ca57'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/OuSEOOSY/versions/cFDndemw/hexkeys-fabric-1.19.2-0.1.1.jar'
+url = 'https://cdn.modrinth.com/data/OuSEOOSY/versions/z8ekhvhn/hexkeys-fabric-1.19.2-0.1.2.jar'
 
 [update.modrinth]
 mod-id = 'OuSEOOSY'
-version = 'cFDndemw'
+version = 'z8ekhvhn'

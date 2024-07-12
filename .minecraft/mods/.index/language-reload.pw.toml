@@ -1,13 +1,13 @@
-filename = 'language-reload-1.5.10+1.19.2.jar'
+filename = 'language-reload-1.6.1+1.19.2.jar'
 name = 'Language Reload'
-side = 'client'
+side = 'both'
 
 [download]
-hash = '9c99bcea0885c75af99c3e2700d985011ee1595753d0b1da58bfbafbda518bac6828fb15091340eb05ff135100f9e8cdf3ab3fa69631b6a9815385e61ede97c7'
+hash = 'a842f4052c73ac195926b391fbe3c4f320b6996eac021e9d0670176869c51a6bc235604e876b61c9ee51d1fa05e018008faeac909ae0fee7588a3cdf310ab15f'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/uLbm7CG6/versions/BM3CadZ1/language-reload-1.5.10%2B1.19.2.jar'
+url = 'https://cdn.modrinth.com/data/uLbm7CG6/versions/AmPdNCPb/language-reload-1.6.1%2B1.19.2.jar'
 
 [update.modrinth]
 mod-id = 'uLbm7CG6'
-version = 'BM3CadZ1'
+version = 'AmPdNCPb'

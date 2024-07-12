@@ -3,11 +3,11 @@ name = 'playerAnimator'
 side = 'both'
 
 [download]
-hash = '4b9341b70949bb285f05106cf3c8550e2b07ec31'
-hash-format = 'sha1'
-mode = 'metadata:curseforge'
-url = ''
+hash = '16a194dc1bab73701b3f2662996f678fd28e2bef6274fcfcb54f70543cab0bb73698577bb4ca3fc7e77cd33e0c7a3f60df3e0a46b9240cc3fe78d0787e4dc7aa'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/gedNE4y2/versions/sqgkbmQD/player-animation-lib-fabric-1.0.2.jar'
 
-[update.curseforge]
-file-id = 4418150
-project-id = 658587
+[update.modrinth]
+mod-id = 'gedNE4y2'
+version = 'sqgkbmQD'

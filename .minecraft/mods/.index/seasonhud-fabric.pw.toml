@@ -1,13 +1,13 @@
-filename = 'seasonhud-fabric-1.19.x-1.7.19.jar'
-name = 'SeasonHUD (Fabric)'
+filename = 'seasonhud-fabric-1.19.2-1.9.0.jar'
+name = 'SeasonHUD'
 side = 'both'
 
 [download]
-hash = 'f85b8a0e21fac3615d8c04598888d0b7fd820c58'
+hash = 'd52511a0fa69a701c008174028b83a68e98b80a6'
 hash-format = 'sha1'
 mode = 'metadata:curseforge'
 url = ''
 
 [update.curseforge]
-file-id = 5248421
+file-id = 5524470
 project-id = 848022

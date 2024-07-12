@@ -1,0 +1,28 @@
+
+[general]
+	music_service = "disabled"
+	link_mode = 1
+	announce_new_song = 0
+	announcement_message = "&aCraftify > &7Now Playing: &b${song} by ${artists}"
+	notification_album_art_location = 1
+	first_time = true
+	mod_mode = -1
+
+[servers]
+	send_songs_to_servers = false
+	allowed_servers = ""
+
+[rendering]
+	anchor_point = 0
+	position_x_offset = 0.0
+	position_y_offset = 0.0
+	render_type = 2
+	display_mode = 2
+	controls = false
+
+[login]
+	service_port = 8880
+	spotify_login_token = ""
+	refresh_token = ""
+	ytmd_token = ""
+

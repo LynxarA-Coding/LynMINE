@@ -1,0 +1,13 @@
+filename = 'createrailwaysnavigator-fabric-1.19.2-0.5.4.jar'
+name = 'Create Railways Navigator'
+side = 'both'
+
+[download]
+hash = '569ac35871f55fee740116a9f542db8b2a28a9ad'
+hash-format = 'sha1'
+mode = 'metadata:curseforge'
+url = ''
+
+[update.curseforge]
+file-id = 5479393
+project-id = 935929

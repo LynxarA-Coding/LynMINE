@@ -1,13 +1,13 @@
-filename = 'hexlink-2.2.11.jar'
+filename = 'hexlink-2.3.3.jar'
 name = 'Hexlink'
 side = 'both'
 
 [download]
-hash = '1649fe36e0d2bf97ebbe3b1e36757412a84271360ff9e4a2e170ab78254b843daae2d44b3423c09cda09b3083441de9b8ca9f679cdbe568f4e1ae5d8ee29c368'
+hash = 'bf22fad3957ad4fab38461d3a468afc4f79ce572b5968ee733584b3a86fced4ff3afe3424630c44911ff0e8a30e33a4864f42bc3de8a7888c1a6d5cdd76b841b'
 hash-format = 'sha512'
 mode = 'url'
-url = 'https://cdn.modrinth.com/data/1xOBKCjv/versions/vTCY64pn/hexlink-2.2.11.jar'
+url = 'https://cdn.modrinth.com/data/1xOBKCjv/versions/BnVI1HZo/hexlink-2.3.3.jar'
 
 [update.modrinth]
 mod-id = '1xOBKCjv'
-version = 'vTCY64pn'
+version = 'BnVI1HZo'

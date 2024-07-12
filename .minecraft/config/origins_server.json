@@ -56,7 +56,8 @@
       "origins:more_exhaustion": true,
       "rpg_origins:not_the_smartest": true,
       "rpg_origins:charismatic": true,
-      "rpg_origins:charismatic_toggle": true
+      "rpg_origins:charismatic_toggle": true,
+      "rpg_origins:musical_talent": true
     },
     "rpg_origins:cleric": {
       "enabled": true,
@@ -143,7 +144,10 @@
       "enabled": true,
       "rpg_origins:no_time_to_rest": true,
       "rpg_origins:select_targets_strong": true,
-      "rpg_origins:select_targets_weak": true
+      "rpg_origins:select_targets_weak": true,
+      "origins:no_shield": true,
+      "origins:strong_arms": true,
+      "origins:natural_armor": true
     },
     "rpg_origins:mage": {
       "enabled": true,

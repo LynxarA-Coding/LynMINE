@@ -1,6 +1,4 @@
 {
-  "_README": "https://gitlab.com/CDAGaming/CraftPresence/-/wikis/home",
-  "_SOURCE": "https://gitlab.com/CDAGaming/CraftPresence",
   "_schemaVersion": 6,
   "_lastMCVersionId": 760,
   "generalSettings": {
@@ -59,6 +57,9 @@
     },
     "singleplayerData": {
       "textOverride": "Playing Singleplayer"
+    },
+    "realmData": {
+      "textOverride": "Playing on {server.motd.raw}"
     }
   },
   "advancedSettings": {
@@ -98,7 +99,8 @@
     "serverIconEndpoint": "https://api.mcsrvstat.us/icon/{server.address.short}",
     "playerSkinEndpoint": "https://mc-heads.net/avatar/{getOrDefault(player.uuid.short, player.name)}",
     "allowDuplicatePackets": false,
-    "maxConnectionAttempts": 10
+    "maxConnectionAttempts": 10,
+    "enableClassGraph": false
   },
   "accessibilitySettings": {
     "tooltipBackground": {
@@ -173,6 +175,7 @@
       }
     },
     "dynamicIcons": {
+      "vesta.minecraft.rent": "https://api.mcsrvstat.us/icon/vesta.minecraft.rent",
       "default": "https://via.placeholder.com/256.png",
       "LynxarA": "https://mc-heads.net/avatar/27d534777e0a4361a3b47d1267693bd9"
     },
