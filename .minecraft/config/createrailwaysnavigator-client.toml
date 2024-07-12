@@ -29,7 +29,7 @@
 
 	["Create Railways Navigator Config".route_overlay]
 		#If active, events during the journey (e.g. the next stop) are announced. (Default: OFF)
-		narrator = false
+		narrator = true
 		#Scale of the route overlay UI. (Default: 0.75)
 		#Range: 0.25 ~ 2.0
 		scale = 0.75

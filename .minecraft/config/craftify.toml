@@ -1,8 +1,8 @@
 
 [general]
-	music_service = "disabled"
+	music_service = "spotify"
 	link_mode = 1
-	announce_new_song = 0
+	announce_new_song = 1
 	announcement_message = "&aCraftify > &7Now Playing: &b${song} by ${artists}"
 	notification_album_art_location = 1
 	first_time = false

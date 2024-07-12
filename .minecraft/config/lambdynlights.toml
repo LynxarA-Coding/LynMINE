@@ -160,3 +160,7 @@ mode = "fancy"
 				leaping_zombie = true
 				shieldbearer = true
 
+			[light_sources.settings.entities.create]
+				super_glue = true
+				carriage_contraption = true
+

@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","Supplementaries Generated Pack","file/FreshAnimations_v1.9.zip","minecraft/supporteatinganimation","file/MandalasGUI_Dakmode_Vanilla1.20.4.zip","emogg.resourcepack.builtin.name","emogg.resourcepack.twemogg.name","file/Dramatic Skys Demo 1.5.3.20.zip","file/Icons v.1.10.1§7.zip","file/RTF_v.2.8.4_1.20.x.zip","file/SodiumTranslations.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/xali\u0027s Potions v1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip"]
-incompatibleResourcePacks:["file/FreshAnimations_v1.9.zip","file/MandalasGUI_Dakmode_Vanilla1.20.4.zip","file/Dramatic Skys Demo 1.5.3.20.zip","file/Icons v.1.10.1§7.zip","file/RTF_v.2.8.4_1.20.x.zip","file/SodiumTranslations.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/xali\u0027s Potions v1.0.0.zip","file/[1.4] Enhanced Boss Bars.zip"]
+resourcePacks:["vanilla","Fabric Mods","Supplementaries Generated Pack","minecraft/supporteatinganimation","file/RTF_v.2.8.4_1.20.x.zip","file/SodiumTranslations.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/xali\u0027s Enchanted Books v0.11.zip","file/xali\u0027s Potions v1.0.0.zip","file/FreshAnimations_v1.9.2.zip","file/Dramatic Skys Demo 1.5.3.24.zip","file/MandalasGUI+Modded_Dakmode_v3.8.8.zip","file/[1.4.1] Enhanced Boss Bars.zip","Steam \u0027n\u0027 Rails Green Signals","computercraft/overhaul"]
+incompatibleResourcePacks:["file/RTF_v.2.8.4_1.20.x.zip","file/SodiumTranslations.zip","file/xali\u0027s Bushy Leaves v3.5.0.zip","file/xali\u0027s Potions v1.0.0.zip","file/FreshAnimations_v1.9.2.zip","file/Dramatic Skys Demo 1.5.3.24.zip","file/MandalasGUI+Modded_Dakmode_v3.8.8.zip","file/[1.4.1] Enhanced Boss Bars.zip","computercraft/overhaul"]
 lastServer:
 lang:ru_ru
 soundDevice:""
@@ -158,7 +158,7 @@ key_keybinds.combatroll.roll:key.mouse.4
 key_Skip Forward:key.keyboard.unknown
 key_Skip Previous:key.keyboard.unknown
 key_Toggle Playing:key.keyboard.unknown
-key_Toggle Craftify HUD:key.keyboard.unknown
+key_Toggle Craftify HUD:key.keyboard.insert
 key_create.keyinfo.toolmenu:key.keyboard.left.alt
 key_create.keyinfo.toolbelt:key.keyboard.left.alt
 key_key.createbigcannons.pitch_mode:key.keyboard.c
